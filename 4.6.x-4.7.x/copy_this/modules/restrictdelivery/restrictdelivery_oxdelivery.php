@@ -31,7 +31,7 @@ class restrictdelivery_oxdelivery extends restrictdelivery_oxdelivery_parent
                 //V FS#1954 - load delivery for variants from parent article
                 $oArticle   = $oContent->getArticle(false);
                 $sProductId = $oArticle->getProductId();
-                $sParentId  = $oArticle->getProductParentId();
+                $sParentId  = $oArticle->getParentId();
 
                 if ( $blHasArticles && (in_array( $sProductId, $aDeliveryArticles ) || ( $sParentId && in_array( $sParentId, $aDeliveryArticles ) ) ) ) {
                     $blUse = true;
