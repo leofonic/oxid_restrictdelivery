@@ -1,4 +1,4 @@
-Module for Oxid eShop 4.6.x and 4.8.x
+Module for Oxid eShop 4.6.x to 4.10.x
 
 Oxid Bug #4123: 
 customers can select deliveryset even if some articles in basket cannot be sent with this deliveryset
